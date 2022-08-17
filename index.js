@@ -3,6 +3,8 @@ const { usuario } = require('./models');
 
 const app = express();
 
+app.set('view engine', 'ejs');
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 
