@@ -18,6 +18,10 @@ app.get('/autenticar', async function(req, res){
     res.render("autenticar")
 })
 
+app.get('/cadastro', async function(req, res){
+    res.render("")
+})
+
 app.post('/logar', async function(req, res){
 })
 
