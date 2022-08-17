@@ -18,7 +18,7 @@ app.get('/autenticar', async function(req, res){
     res.render("autenticar")
 })
 
-app.get('/cadastro', async function(req, res){
+app.get('/inscrever', async function(req, res){
     res.render("")
 })
 
