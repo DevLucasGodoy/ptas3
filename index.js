@@ -1,5 +1,5 @@
 const express = require('express');
-//const { usuario } = require('./models');
+const { usuario } = require('./models');
 
 const app = express();
 
@@ -28,7 +28,7 @@ app.post('/logar', async function(req, res){
   } else {
     res.json("Usuário ou Senha Incorretos");
   }
-})
+});
 
 app.post('/deslogar', async function(req, res){
 })
