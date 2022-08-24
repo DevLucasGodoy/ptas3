@@ -23,6 +23,11 @@ app.get('/inscrever', async function(req, res){
 })
 
 app.post('/logar', async function(req, res){
+  if (req.body.usuario == "lucas" && req.body.senha == "1234"){
+    res.json("Login com sucesso");
+  } else {
+    res.json("Usuário ou Senha Incorretos");
+  }
 })
 
 app.post('/deslogar', async function(req, res){
