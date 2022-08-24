@@ -306,6 +306,11 @@
   "resolved" "https://registry.npmjs.org/content-type/-/content-type-1.0.4.tgz"
   "version" "1.0.4"
 
+"cookie-parse@^0.4.0":
+  "integrity" "sha512-WichJHIaIzLrGkCbdup1SzJABOv/724MubsY2eaT5QkZz8ojNcZzn+gJ4Drrklm/le7lr0j/q0FaEgjooXhAog=="
+  "resolved" "https://registry.npmjs.org/cookie-parse/-/cookie-parse-0.4.0.tgz"
+  "version" "0.4.0"
+
 "cookie-signature@1.0.6":
   "integrity" "sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ=="
   "resolved" "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz"
