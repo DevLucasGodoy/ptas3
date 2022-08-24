@@ -19,7 +19,7 @@ app.get('/autenticar', async function(req, res){
 })
 
 app.get('/inscrever', async function(req, res){
-    res.render("")
+    res.render("inscrever")
 })
 
 app.post('/logar', async function(req, res){
